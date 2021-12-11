@@ -1,13 +1,17 @@
 import styled from "styled-components";
 
 export const MeContainer = styled.div`
-    min-height: calc(100vh - 7rem) ;
-    padding-top: 7rem;
+    min-height: 100vh;
+    /* padding-top: 7rem; */
     display: flex;
     flex-direction: column;
     align-items: center;
     justify-content: flex-end;
+    @media(max-width: 600px){
+        min-height: 80vh;
+    }
 `
+
 export const Span = styled.span`
     color: tomato;
 `
