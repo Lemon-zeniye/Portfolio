@@ -6,12 +6,8 @@ export const MeContainer = styled.div`
     flex-direction: column;
     align-items: center;
     justify-content: flex-end;
-    @media screen and (max-width: 900px) and (min-width: 600px){
-        background-color: red;
-    }
     @media(max-width: 600px){
         min-height: 80vh;
-        background-color: green;
     }
 `
 
